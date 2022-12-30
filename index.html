@@ -292,7 +292,7 @@ async function getans(p) {
     await fetch("https://api.openai.com/v1/completions", {
         body: '{"model": "text-davinci-003", "prompt": "(background info:'+ppp+') '+p+' '+pp+'", "temperature": 0.7,"max_tokens": 500, "top_p": 1, "best_of": 2, "frequency_penalty": 0, "presence_penalty": 0}',
         headers: {
-            Authorization: "Bearer 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",
+            Authorization: "Bearer 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",
             "Content-Type": "application/json"
         },
         method: "POST"
